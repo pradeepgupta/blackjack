@@ -3,6 +3,6 @@ diamonds =[["Jacks","11"],["Queens","12"], ["Kings", "13"],[" Aces","11","1"],["
 hearts = [["Jacks","11"],["Queens","12"], ["Kings", "13"],[" Aces","11","1"],["2","3","4","5","6","7","8","9","10"]]
 spades = [["Jacks","11"],["Queens","12"], ["Kings", "13"],[" Aces","11","1"],["2","3","4","5","6","7","8","9","10"]]
 
-hits = 20
+cards = [clubs,diamonds,hearts,spades]
 
-while hits < 20
+cards.each 
