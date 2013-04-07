@@ -114,7 +114,7 @@ until (@mytotal == 21 || @dealertotal == 21)  # for dealer
             newdealercards << deck.pop
             @dealertotal += calculate_total(newdealercards)
             
-            puts "#Dealers points are :{@dealertotal}"
+            puts "Dealers points are : #{@dealertotal}"
             comparison = @dealertotal <=> @mytotal
               
               if comparison == -1.to_i
